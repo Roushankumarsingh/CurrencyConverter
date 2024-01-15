@@ -1,0 +1,83 @@
+.dropdown 
+{
+    height: 18vh;
+    display: flex ; 
+    justify-content: center; 
+    align-items: center;
+}
+.container
+{
+    height: 40vh; 
+    width: 40vh; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #63a876;
+}
+body 
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color:#32a852;
+    min-height: 100vh;
+}
+*
+{
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box;
+}
+.msg
+{
+    width: 100%;
+    background-color: #8ca191;
+    text-align: center;
+}
+form input 
+{
+    border: 1px solid lightgray; 
+    font-size: 1rem ;
+    border-radius: 8px;
+    height: 60px;
+}
+.button
+{
+    width: 100%; 
+    height: 30px;
+    background-color: #d332d9;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border-radius: 5px;
+}
+.button button 
+{
+    background-color: #d332d9; 
+    border:none ; 
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+}
+p
+{
+    font-size: 14px; 
+    font-weight: 800;
+}
+.select-container
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #a47ba6;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+i
+{
+    margin-bottom: 10px;
+    /* margin: 10px; */
+}
